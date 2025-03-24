@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+nav{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #FFB6C1;
+   justify-content: center;
+   text-align: center;
+   
+    
+} 
+nav img{
+    width: 100px;
+    
+}
+
+    
+
+nav a{
+    text-decoration: red;
+    font-size: 35px;
+    width: 200px; height: 60pv;
+    color: black;
+    text-align: center;
+    font-family: "Lavishly Yours";
+    
+
+}
+body{
+    
+}
+.logo{
+    
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px, 10px, 20px #000;
+    text-align: center;
+    color: #FFB6C1;
+    font-family: "Lavishly Yours";
+    font-size: 25px;
+}
+.card img{
+    width: 50%;
+    border-radius: 20px 20px 0 0 ;
+    
+
+}
+.targetas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.welcome{
+    padding: 20px;
+    background-color:rgba(2, 65, 99, 0.934);
+    text-align: center;
+    color: rgb(154, 244, 244);
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+.card:hover{
+    transform: scale(1.1);
+   
+}
+.card h2{
+    color: #000;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(128, 128, 128);
+    color: black;
+    font-family: "Lavishly Yours";
+    margin: 0px;
+    font-size: 30px;
+}
