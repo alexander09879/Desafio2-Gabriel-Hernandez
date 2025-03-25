@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 nav{
     display: flex;
@@ -134,3 +133,31 @@ h1{
     color: #000;
     text-decoration: none;
   }
+  .infoCurso img{
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+.infoCurso{
+    overflow: auto;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: #FFB6C1; 
+    font-family: "EB Garamond", serif;
+    font-size: 50px;
+    border-radius: 50px;
+}
+.courses{
+    padding:  30px;
+
+}
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(26, 26, 102);
+}
